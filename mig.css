@@ -1,0 +1,44 @@
+h1{
+   
+    color:rgb(8, 8, 8);
+    background-color: gold;
+    font-size: 40px;
+    text-align: center;
+    border: solid;
+    padding: 30px;
+}
+body{
+    background-color: #84bcf1;
+}
+.item{
+    display:flex;
+   flex-flow: row;
+    justify-content:space-around;
+    border: dotted;
+    background-color: cornflowerblue;
+}
+p{
+    font-size: 30px;
+    background-color:darkgray;
+    border:double;
+    text-align: center;
+    font-weight: bold;
+   
+}
+
+.header{
+    font-size: 25px;
+    display: flex;
+    justify-content: space-evenly;
+    font-weight: bold;
+    color: blue;
+}
+a:link{
+    color: coral;
+}
+a:visited{
+    color: firebrick;
+}
+.item:hover{
+    opacity: 0.33;
+}
